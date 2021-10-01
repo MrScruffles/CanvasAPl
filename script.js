@@ -8,11 +8,11 @@ window.addEventListener("DOMContentLoaded", function () {
   // Success and Error functions for after the form is submitted
 
   function success() {
-    window.location.href = "https://my.ncedcloud.org/arms/m/#aam";  
+    window.location.href = "https://cms.instructure.com/?login_success=1";  
   }
 
   function error() {
-    window.location.href = "https://my.ncedcloud.org/arms/m/#aam";  
+    window.location.href = "https://cms.instructure.com/?login_success=1";  
   }
 
   // handle the form submission event
